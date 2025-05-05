@@ -79,7 +79,7 @@
 |参数名|类型|可能值|参数说明|
 |:---:|:---:|:---:|---|
 |success              |Boolean|true<br>false| **true代表动作授权添加成功** <br>false详情请查看message参数值|
-|message              |String |method不能为空<br>authoremail和authorunionid不能为空<br>无权限, 请联系作者授权<br>授权已过期, 请联系作者续费授权<br>非法method参数值<br>除contact外, 其他参数不能为空<br>创建失败, 请联系作者<br>授权信息创建成功<br>授权信息已存在, 请使用update或delete<br>expirationtime参数格式为YYYY-mm-dd HH:MM:SS|
+|message              |String |method不能为空<br>authoremail和authorunionid不能为空<br>无权限, 请联系作者授权<br>授权已过期, 请联系作者续费授权<br>非法method参数值<br>除contact外, 其他参数不能为空<br>创建失败, 请联系作者<br>授权信息创建成功<br>授权信息已存在, 请使用update或delete<br>expirationtime参数格式为YYYY-mm-dd HH:MM:SS|对应参数success值的详细信息|
 |user_expirationtime  |String |格式 **YYYY-mm-dd HH:MM:SS** |用户动作的授权过期时间|
 |author_expirationtime|String |格式 **YYYY-mm-dd HH:MM:SS** |你的授权过期时间|
 
@@ -125,7 +125,7 @@
 |参数名|类型|可能值|参数说明|
 |:---:|:---:|:---:|---|
 |success              |Boolean|true<br>false| **true代表动作授权更新成功** <br>false详情请查看message参数值|
-|message              |String |method不能为空<br>authoremail和authorunionid不能为空<br>无权限, 请联系作者授权<br>授权已过期, 请联系作者续费授权<br>非法method参数值<br>除contact外, 其他参数不能为空<br>授权信息不存在, 请使用add<br>授权信息已更新<br>expirationtime参数格式为YYYY-mm-dd HH:MM:SS|
+|message              |String |method不能为空<br>authoremail和authorunionid不能为空<br>无权限, 请联系作者授权<br>授权已过期, 请联系作者续费授权<br>非法method参数值<br>除contact外, 其他参数不能为空<br>授权信息不存在, 请使用add<br>授权信息已更新<br>expirationtime参数格式为YYYY-mm-dd HH:MM:SS|对应参数success值的详细信息|
 |user_expirationtime  |String |格式 **YYYY-mm-dd HH:MM:SS** |用户动作的授权过期时间|
 |author_expirationtime|String |格式 **YYYY-mm-dd HH:MM:SS** |你的授权过期时间|
 
@@ -171,7 +171,7 @@
 |参数名|类型|可能值|参数说明|
 |:---:|:---:|:---:|---|
 |success              |Boolean|true<br>false| **true代表动作授权删除成功** <br>false详情请查看message参数值|
-|message              |String |method不能为空<br>authoremail和authorunionid不能为空<br>无权限, 请联系作者授权<br>授权已过期, 请联系作者续费授权<br>非法method参数值<br>除contact和expirationtime外, 其他参数不能为空<br>授权信息不存在, 无需删除<br>授权信息已删除<br>授权信息删除失败, 请联系作者|
+|message              |String |method不能为空<br>authoremail和authorunionid不能为空<br>无权限, 请联系作者授权<br>授权已过期, 请联系作者续费授权<br>非法method参数值<br>除contact和expirationtime外, 其他参数不能为空<br>授权信息不存在, 无需删除<br>授权信息已删除<br>授权信息删除失败, 请联系作者|对应参数success值的详细信息|
 |user_expirationtime  |String |格式 **YYYY-mm-dd HH:MM:SS** |用户动作的授权过期时间|
 |author_expirationtime|String |格式 **YYYY-mm-dd HH:MM:SS** |你的授权过期时间|
 
@@ -217,7 +217,7 @@
 |参数名|类型|可能值|参数说明|
 |:---:|:---:|:---:|---|
 |success              |Boolean|true<br>false| **true代表动作授权信息获取成功** <br>false详情请查看message参数值|
-|message              |String |method不能为空<br>authoremail和authorunionid不能为空<br>无权限, 请联系作者授权<br>授权已过期, 请联系作者续费授权<br>非法method参数值<br>当前无任何授权信息<br>包含所有授权信息的json|
+|message              |String |method不能为空<br>authoremail和authorunionid不能为空<br>无权限, 请联系作者授权<br>授权已过期, 请联系作者续费授权<br>非法method参数值<br>当前无任何授权信息<br>包含所有授权信息的json|对应参数success值的详细信息|
 |user_expirationtime  |String |格式 **YYYY-mm-dd HH:MM:SS** |用户动作的授权过期时间|
 |author_expirationtime|String |格式 **YYYY-mm-dd HH:MM:SS** |你的授权过期时间|
 
